@@ -129,7 +129,7 @@ msgstr ""
 
 #. Text in echo
 #: single-products.php:173
-msgid "General Details"
+msgid "Informations générales"
 msgstr ""
 
 #. Text in function

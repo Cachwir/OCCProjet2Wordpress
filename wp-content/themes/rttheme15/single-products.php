@@ -182,7 +182,7 @@ get_header();
 			<div class="taps_wrap">
 			    <!-- the tabs -->
 			    <ul class="tabs">
-					<?php if($content):?><li><a href="#"><?php _e('General Details','rt_theme');?></a></li><?php endif;?>
+					<?php if($content):?><li><a href="#"><?php _e('Description','rt_theme');?></a></li><?php endif;?>
 					<?php
 					#
 					#	Free Tabs
