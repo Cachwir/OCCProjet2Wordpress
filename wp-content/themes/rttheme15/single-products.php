@@ -116,7 +116,7 @@ get_header();
 									$image_thumb 		= @vt_resize( '', $photo_url, $w, $h, ''.$crop.'' );
 									$image_big 		= @vt_resize( '', $photo_url, 630, 10000, false );
 									?>
-									<li><a href="<?php echo $image_big['url'];?>" title=""><img src="<?php echo $image_thumb['url'];?>" alt="" /></a></li>
+									<li><a href="<?php echo $image_big['url'];?>" title=""><img src="<?php echo $image_big['url'];?>" alt="" /></a></li>
 									<?php
 									
 									@$photo_count++;
