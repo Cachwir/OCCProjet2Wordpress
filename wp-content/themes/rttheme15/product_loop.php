@@ -59,7 +59,7 @@ $h		= get_option('rttheme_product_image_height'); 	// image max height
 	<div class="box <?php echo $box_layout_class;?> <?php echo $box_class;?> portfolio">
 			<?php if($thumb):?>
 			<!-- product image -->
-			<span class="frame block"><a href="<?php echo $permalink;?>" class="imgeffect link"><img src="<?php echo $image['url'];?>"  alt="" /></a></span>
+			<span class="frame block"><a href="<?php echo $permalink;?>" class="imgeffect link"><img src="<?php echo $thumb;?>"  alt="" /></a></span>
 			<?php endif;?>
 			
 			<div class="product_info">
